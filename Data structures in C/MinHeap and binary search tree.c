@@ -238,18 +238,18 @@ int main()
 			//printPlatforma(p);
 			insertInHeap(&heap, p);
 		}
-		//printHeap(heap);
+		printHeap(heap);
 		printf("\n---------------------------\n");
 		changeRoot(&heap);
 		printHeap(heap);
-		//BST bst;
-		//insertInBST(&bst, heap, 3);
-		//printInOrder(bst.root);
-		//dezalocaHeap(&heap);
-		//printHeap(heap);
-		//dezalocaTotalBST(&bst);
-		//printInOrder(bst.root);
-		//insertInBST(&bst, heap, 3);
-		//printInOrder(bst.root);
+		BST bst;
+		insertInBST(&bst, heap, 3);
+		printInOrder(bst.root);
+		dezalocaHeap(&heap);
+		printHeap(heap);
+		dezalocaTotalBST(&bst);
+		printInOrder(bst.root);
+		insertInBST(&bst, heap, 3);
+		printInOrder(bst.root);
 	}
 }
