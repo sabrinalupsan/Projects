@@ -1,0 +1,16 @@
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\bin\Debug\Year2_Lupsan_Sabrina.exe.config
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\bin\Debug\Year2_Lupsan_Sabrina.exe
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\bin\Debug\Year2_Lupsan_Sabrina.pdb
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.csprojAssemblyReference.cache
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.Add_Memberships.resources
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.Form1.resources
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.Properties.Resources.resources
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.csproj.GenerateResource.cache
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.csproj.CoreCompileInputs.cache
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.exe
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.pdb
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\bin\Debug\System.Data.SQLite.dll
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\bin\Debug\System.Data.SQLite.xml
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\bin\Debug\System.Data.SQLite.dll.config
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\obj\Debug\Year2_Lupsan_Sabrina.csproj.CopyComplete
+D:\Facultate an 2 semestru 2\Windows\Year2_Lupsan_Sabrina\Year2_Lupsan_Sabrina\bin\Debug\database.db
