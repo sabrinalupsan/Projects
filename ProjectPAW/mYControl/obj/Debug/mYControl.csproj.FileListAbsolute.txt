@@ -1,0 +1,16 @@
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\mYControl.dll
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\mYControl.pdb
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\obj\Debug\mYControl.csprojAssemblyReference.cache
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\obj\Debug\mYControl.AverageControl.resources
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\obj\Debug\mYControl.csproj.GenerateResource.cache
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\obj\Debug\mYControl.csproj.CoreCompileInputs.cache
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\obj\Debug\mYControl.dll
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\obj\Debug\mYControl.pdb
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\LiveCharts.dll
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\LiveCharts.Wpf.dll
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\SimpleChart.dll
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\LiveCharts.pdb
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\LiveCharts.xml
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\LiveCharts.Wpf.pdb
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\bin\Debug\LiveCharts.Wpf.xml
+D:\Facultate an 2 semestru 2\Windows\ProjectPAW\mYControl\obj\Debug\mYControl.csproj.CopyComplete

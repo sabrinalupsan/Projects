@@ -1,0 +1,13 @@
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.csprojAssemblyReference.cache
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.Properties.Resources.resources
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.csproj.GenerateResource.cache
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\bin\Debug\ProiectPAWtry1.exe.config
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\bin\Debug\ProiectPAWtry1.exe
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\bin\Debug\ProiectPAWtry1.pdb
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.exe
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.pdb
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.MyForm.resources
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.GradesForm.resources
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.AddToDashboard.resources
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.csproj.CoreCompileInputs.cache
+D:\Facultate an 2 semestru 2\Windows\ProiectPAWtry1\ProiectPAWtry1\obj\Debug\ProiectPAWtry1.UpdateStudent.resources
