@@ -355,10 +355,10 @@ int main()
 
 		printAVLPreorder(avl.root);
 		printf("\n--------------------------");
-		//AVL2 avl2;
-		//chooseLibraries(avl.root, &avl2, 2);
+		AVL2 avl2;
+		chooseLibraries(avl.root, &avl2, 2);
 		printAVLInorder(avl.root);
-		//printAVLPreorder(avl2.root);  
+		printAVLPreorder(avl2.root);  
 	}
 }
 
