@@ -1,0 +1,3 @@
+#Battle Properties
+#Sun Mar 22 18:05:31 EET 2020
+robocode.battle.selectedRobots=eu.ase.jrobot.MyEightRobot*,eu.ase.jrobot.MyFifthRobot*,eu.ase.jrobot.MyFirstRobot*,eu.ase.jrobot.MyFourthRobot*,eu.ase.jrobot.MySecondRobot*,eu.ase.jrobot.MySeventhRobot*,eu.ase.jrobot.MySixthRobot*,eu.ase.jrobot.MyThirdRobot*
