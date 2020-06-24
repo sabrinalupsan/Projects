@@ -1,0 +1,11 @@
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\bin\Debug\DevConference.exe.config
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\bin\Debug\DevConference.exe
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\bin\Debug\DevConference.pdb
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.csprojAssemblyReference.cache
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.Form1.resources
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.Properties.Resources.resources
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.csproj.GenerateResource.cache
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.csproj.CoreCompileInputs.cache
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.exe
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.pdb
+D:\Facultate an 2 semestru 2\Windows\DevConference\DevConference\obj\Debug\DevConference.AddRegistration.resources

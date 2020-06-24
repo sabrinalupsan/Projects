@@ -1,0 +1,3 @@
+﻿1,Silver,12.56
+2,Gold,78.98
+3,Platinum,100

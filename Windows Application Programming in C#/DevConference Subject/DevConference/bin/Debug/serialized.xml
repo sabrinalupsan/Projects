@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfRegistration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Registration>
+    <CompanyName>123</CompanyName>
+    <NoOfPasses>123</NoOfPasses>
+    <AccessPackageId>1</AccessPackageId>
+  </Registration>
+  <Registration>
+    <CompanyName>zzz</CompanyName>
+    <NoOfPasses>24</NoOfPasses>
+    <AccessPackageId>2</AccessPackageId>
+  </Registration>
+  <Registration>
+    <CompanyName>adsa</CompanyName>
+    <NoOfPasses>2322</NoOfPasses>
+    <AccessPackageId>2</AccessPackageId>
+  </Registration>
+  <Registration>
+    <CompanyName>ccc</CompanyName>
+    <NoOfPasses>23</NoOfPasses>
+    <AccessPackageId>3</AccessPackageId>
+  </Registration>
+</ArrayOfRegistration>

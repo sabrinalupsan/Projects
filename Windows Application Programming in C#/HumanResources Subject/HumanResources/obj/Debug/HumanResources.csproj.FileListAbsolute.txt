@@ -1,0 +1,15 @@
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.csprojAssemblyReference.cache
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.AddEmployees.resources
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.Form1.resources
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.Properties.Resources.resources
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.csproj.GenerateResource.cache
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.csproj.CoreCompileInputs.cache
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\bin\Debug\HumanResources.exe.config
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\bin\Debug\HumanResources.exe
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\bin\Debug\HumanResources.pdb
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.exe
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.pdb
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\bin\Debug\System.Data.SQLite.dll
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\bin\Debug\System.Data.SQLite.xml
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\bin\Debug\System.Data.SQLite.dll.config
+D:\Facultate an 2 semestru 2\Windows\HumanResources\HumanResources\obj\Debug\HumanResources.csproj.CopyComplete
