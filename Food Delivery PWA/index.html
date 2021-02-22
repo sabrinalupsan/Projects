@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="theme-color" content="white">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+        <!-- <IfModule hidden mod_headers.c>
+            Header set Access-Control-Allow-Origin "*"
+        </IfModule> -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="media/icon-144x144.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="apple-mobile-web-app-title" content="yEAT">
+
+    <meta name="msapplication-TileImage" content="media/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="white">
+    <title>yEAT</title>
+</head>
+<body>
+    <header>
+        <div id="topdiv">
+            <img id="homeBtn" src="https://www.flaticon.com/svg/static/icons/svg/25/25694.svg" alt="home button" onclick=renderHomePage()>
+            <canvas id="titleCanvas" >yEAT</canvas>
+            <img id="cart" src="https://static.thenounproject.com/png/5641-200.png" alt="shopping cart" onclick=renderCart()>
+        </div>
+        <div id="topimagediv">
+            <img id = "topimagePizza" src="media/foodiesfeed.com_pizza-with-italian-sausage.jpg" alt>
+        </div>
+    </header>
+    <div id="root"></div>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="restaurant.js"></script>
+    <script type="text/javascript" src="restaurantList.js"></script>
+    <script>
+        addEventListener("keydown", function(event) {
+            if (event.keyCode==49) 
+                showMenu("Menudominosformdiv", "Menudominosbutton");
+            else 
+            if (event.keyCode==50)
+                showMenu("Menukfcformdiv", "Menukfcbutton");
+            else
+                if (event.keyCode==51) 
+                    showMenu("MenumcDonaldsformdiv", "MenumcDonaldsbutton");
+        });
+    </script>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZmmTQPwqmrg4n-4I7pfDvLTT26GlSCOo&libraries=geometry&callback=initMap">
+    </script>
+    <script type="text/javascript" src="geolocation.js"></script>
+    <div id="bottomimagediv">
+        <img id = "pasta" src="media/pasta.jpg" alt>
+    </div>
+    <footer>
+        <script>
+            function allowDrop(ev) {
+              ev.preventDefault();
+            }
+            
+            function drag(ev) {
+              ev.dataTransfer.setData("text", ev.target.id);
+            }
+            
+            function drop(ev) {
+                ev.preventDefault();
+                var data = ev.dataTransfer.getData("text");
+                ev.target.appendChild(document.getElementById(data));
+            }
+        </script>
+        <div id="drophere" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h4>Which is your favourite restaurant?</h4>
+        </div>
+
+        <div class="footerAbout">
+            <div class="aboutContent">
+            <h2 id="about" onclick="renderAbout()">About us</h2>
+            <audio id="christmas" controls>
+                <source src="media/christmas.mp3" type="audio/mpeg">
+            </audio>   
+    </footer>
+    <noscript>Your browser does not support Javascript!</noscript>
+</body>
+</html>

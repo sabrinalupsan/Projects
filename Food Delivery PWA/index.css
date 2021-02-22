@@ -1,0 +1,361 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#topdiv
+{   
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(146, 174, 69) ;
+    margin: auto;
+}
+
+/* #map{
+    height: 400px;
+    width: auto;
+} */
+
+#cart, #homeBtn{
+    height:7vh; width:auto; 
+    padding:0.6vh;
+    margin: 0.6vh;
+}
+#cart:hover, #homeBtn:hover{
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#restaurant-list{
+    background-color:rgb(146, 174, 69); 
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+
+
+}
+
+.restaurant {
+    background-color: bisque;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0.7vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+  
+}
+
+#topimagediv img
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.profilediv
+{
+    width: 200px;
+}
+
+.profile
+{
+    width: 100%;
+}
+
+.icon
+{
+    max-width: 20px;
+}
+
+.restaurant *
+{
+    margin: 0px;
+    transition: background 0.2s linear;
+}
+
+
+button
+{
+    background-color:rgb(197, 202, 194);
+}
+
+#titleCanvas
+{
+    top: 7vh;
+    display: block;
+    margin: 0px auto;
+    justify-content: center;
+    animation: animated_div 3s 1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animated_div;
+    border-radius: 5px;
+}
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+#christmas
+{
+    background-color: black;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+footer{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+
+#foodvideo
+{
+    float: left;
+    width: 50%;
+}
+
+@keyframes example 
+{
+    from 
+    {
+        background-color: black;
+    }
+    to 
+    {
+        background-color: blueviolet;
+    }
+}
+
+.restaurant:hover
+{
+    background-color: rgb(217, 219, 216);
+    transition: background 0.2s linear;
+}
+
+audio{
+    background-color: blue;
+}
+
+form *
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+input
+{
+    max-width:50px;
+}
+
+
+#bottomimagediv img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#order
+{    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+#thesvg
+{
+    width: 50%;
+}
+
+#therectangle
+{
+    width: 100%;
+    height:  100%;
+}
+
+#courier
+{
+    /* float: left; */
+    width: 100px;
+}
+
+#successfulorder
+{
+    display: inline-block;
+}
+
+@keyframes animated_yeet
+{
+    0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+}
+
+#yeet
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: animated_yeet 3s 1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animated_yeet;
+    border-radius: 5px;
+}
+
+.formdiv
+{
+    display: none;
+    width: 500px;
+}
+
+#restaurantdiv
+{
+    width: 250px;
+}
+
+#productname
+{
+    width: 250px;
+}
+
+#drophere
+{
+    height: 216px;
+    width: auto;
+
+    margin: 1.5vh;
+    background-color: bisque;
+}
+
+#drophere img
+{
+    width: 195px;
+}
+
+.aboutContent{
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-direction: column; */
+    /* margin: 5vh; */
+}
+
+#about{
+    text-align: center;
+}
+
+
+#about:hover{
+    /* border-style: solid; */
+    /* border-color: white; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+    margin:0.5vh;
+    transform: scale(1.2);
+
+}
+
+.footerAbout{
+    display: flex;
+    justify-content: center;
+    margin:1vh;
+}
+
+
+
+#thefilters
+{
+    background-color: bisque;
+}
+
+footer
+{
+    background-color:rgb(146, 174, 69);
+}
+
+body
+{
+    background-color: bisque;
+}
+
+@media screen and (max-width: 599px)
+{
+    .rectangletext 
+    {
+        display: none;
+    }
+    .buttons
+    {
+        font-size: 2vh;
+        width: 15vw;
+        height: 7vh;
+    }
+    #titleCanvas
+    {
+        display: none;
+    }
+}
+
+@keyframes profile_pic
+{
+    0% {
+        width: 200px;
+      }
+      100% {
+        width: 190px;
+      }
+}
+
+.profilediv :hover
+{
+    animation: profile_pic 3s 1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: profile_pic;
+}
+.buttons
+{
+    background-color:rgb(177, 202, 161);
+    border: 1px solid black;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: bisque;
+    width: 10vw;
+    height: 5vh;
+} 
