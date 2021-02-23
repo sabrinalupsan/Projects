@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/income_values"
+            android:entryValues="@array/income_values"
+            android:key="incomeAmount"
+            android:title="@string/income_default" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="expenseAmount"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/default_expense_amount" />
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/signature_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            android:defaultValue="22"
+            android:title="@string/cashAmountMaximum"
+            android:key="seekBar"
+            app:showSeekBarValue="true"
+            android:max="1000"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

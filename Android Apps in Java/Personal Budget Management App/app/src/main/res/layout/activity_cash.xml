@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CashActivity">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="@string/is_this_information_correct"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+         />
+
+    <TextView
+        android:id="@+id/infoID"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:maxLines="10"
+        android:minLines="2"
+        android:singleLine="false" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnSave"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:textColor="#EF1818"
+            android:textColorHighlight="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/btnCancel"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:text="@string/no2" />
+    </RadioGroup>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.seminar_4.Cash.ListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="331dp" />
+
+    <Button
+        android:id="@+id/btnChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_chart" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+</LinearLayout>

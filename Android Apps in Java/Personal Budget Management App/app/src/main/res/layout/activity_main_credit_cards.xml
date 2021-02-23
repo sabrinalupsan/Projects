@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CreditCards.MainActivity"
+    >
+
+    <TextView
+        android:textColor="#09775B"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:text="@string/credit_cards"
+
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#215704"
+        android:id="@+id/tv_Actual_Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/actual_amountt" />
+
+    <EditText
+        android:id="@+id/et_actualAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="@string/insert_the_amount"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:background="#A8E6A3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="15sp"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/type_of_summ"
+                android:textColor="#215704"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_typeSum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp">
+
+
+                <RadioButton
+                    android:buttonTint="#B80520"
+                    android:textSize="15sp"
+                    android:id="@+id/rb_expense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/expense"
+                    android:textColor="#B80520"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/income"
+                    android:textColor="#2F7808"
+                    android:buttonTint="#2F7808"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#96C4E3"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/categoryy"
+                android:textColor="#215704"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:buttonTint="#2F7808"
+                android:textColor="#2F7808"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/food" />
+
+            <CheckBox
+                android:buttonTint="#2F7808"
+                android:id="@+id/checkBox2"
+                android:textSize="15sp"
+                android:textColor="#2F7808"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/clothing" />
+
+            <CheckBox
+                android:buttonTint="#2F7808"
+                android:id="@+id/checkBox3"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#2F7808"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/services" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#062F42"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_DatePlace"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:hint="@string/date_of_transactionn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="CallCalendarActivity"
+            android:clickable="true"
+            android:inputType="date"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:onClick="callSecondActivity"
+        android:id="@+id/btn_next1"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="@string/next"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
+
+

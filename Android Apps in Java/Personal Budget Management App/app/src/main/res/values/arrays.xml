@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_to_menu">
+        <item>Cash</item>
+        <item>Credit cards</item>
+        <item>Wishlist</item>
+    </string-array>
+    <!-- Reply Preference -->
+
+    <string-array name="income_values">
+        <item>0</item>
+        <item>20</item>
+        <item>60</item>
+        <item>80</item>
+    </string-array>
+</resources>

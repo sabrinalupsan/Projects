@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Seminar_4</string>
+    <string name="my_cash">My Cash</string>
+    <string name="select_amount">Select amount</string>
+    <string name="planned">Planned</string>
+    <string name="from_savings">From savings</string>
+    <string name="is_this_information_correct">Is this information correct?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="transactions">Transactions</string>
+    <string name="welcome_to_cashapp">Welcome to CashApp</string>
+    <string name="transaction">Transaction</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Personal settings</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your name</string>
+    <string name="reply_title">Default amount</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="save1">Save</string>
+    <string name="ok1">OK</string>
+    <string name="cancel2">Cancel</string>
+    <string name="wish_name">Wish Name</string>
+    <string name="importance">Importance</string>
+    <string name="deadline">Deadline</string>
+    <string name="cost">Cost</string>
+    <string name="_0">0$</string>
+    <string name="experience">Experience</string>
+    <string name="material_good">Material Good</string>
+    <string name="wishes">Wishes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="add2">Add</string>
+    <string name="credit_cards">Credit Cards</string>
+    <string name="go_to_calendar">Go to calendar</string>
+    <string name="next">Next</string>
+    <string name="btn_ok">btn_ok</string>
+    <string name="go_back">Go Back</string>
+    <string name="insert_the_amount">Insert the amount</string>
+    <string name="is_the_information_correct">Is the information correct?</string>
+    <string name="type_of_sum">Type of sum:</string>
+
+    <string name="actual_amount">Actual amount</string>
+    <string name="what_type_of_sum">What type of sum?</string>
+    <string name="expense2">Expense</string>
+    <string name="income2">Income</string>
+    <string name="category">Category</string>
+    <string name="food">Food</string>
+    <string name="clothing">Clothing</string>
+    <string name="services">Services</string>
+    <string name="insert_the_date_of_transaction">Insert the date of transaction:</string>
+    <string name="date_of_transaction">Date of transaction:</string>
+    <string name="select_the_category">Select the category:</string>
+    <string name="credit_cards_history">Credit Cards History</string>
+    <string name="category2">Category:</string>
+    <string name="ok2">OK</string>
+    <string name="back_to_the_initial_activity">Back to the initial activity</string>
+    <color name="orange">#F7D358</color>
+
+    <string-array name="choose_bank">
+        <item>ING</item>
+        <item>BCR</item>
+        <item>BRD</item>
+        <item>Transilvania</item>
+        <item>Alpha Bank</item>
+        <item>First Bank</item>
+        <item>OTP Bank</item>
+        <item>Libra Bank</item>
+        <item>Raiffeisen</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="parse_to_json">Parse to JSON</string>
+    <string name="get">Get</string>
+    <string name="save2">Save</string>
+    <string name="get_all">get all</string>
+    <string name="save_all">Save all</string>
+    <string name="title_activity_edit_item">EditItem</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="insert">Insert</string>
+    <string name="insert_last">Insert last</string>
+    <string-array name="alerts">
+        <item>daily</item>
+        <item>weekly</item>
+        <item>monthly</item>
+        <item>every 2 months</item>
+        <item>dont remind me</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="see_suggestions">See holiday suggestions</string>
+    <string name="yes2">Yes</string>
+    <string name="no2">No</string>
+    <string name="show_chart">Show chart</string>
+    <string name="ok3">OK</string>
+    <string name="no3">No</string>
+    <string name="yes">Yes</string>
+    <string name="insert1">insert</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="other">Other</string>
+    <string name="date">Date</string>
+    <string name="falseToggle">False</string>
+    <string name="trueToggle">True</string>
+    <string name="ok4">OK</string>
+    <string name="cancel3">Cancel</string>
+    <string name="past_transactions">Past transactions</string>
+    <string name="ok">OK</string>
+    <string name="cancel4">Cancel</string>
+    <string name="change_settings">Change settings</string>
+    <string name="add">Add a wish</string>
+    <string name="save">Save</string>
+    <string name="second_fragment">Second fragment</string>
+    <string name="back">Back</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="textview4">TextView</string>
+    <string name="limit">Limit</string>
+    <string name="bank_details">BANK DETAILS</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="insert_the_iban">Insert the IBAN</string>
+    <string name="iban">IBAN</string>
+    <string name="cancel10">Cancel</string>
+    <string name="amount_of_money_lei">Amount of money (lei)</string>
+    <string name="back_to_the_bank_details">Back to the Bank Details</string>
+    <string name="save_in_text_file">Save in text file</string>
+    <string name="save_csv">Save CSV</string>
+    <string name="delete_all">Delete all</string>
+    <string name="drop">Drop</string>
+    <string name="save_text_file">Save Text File</string>
+    <string name="drop_table">Drop table</string>
+    <string name="choose_rating">Choose Rating</string>
+    <string name="examples">Examples</string>
+    <string name="todo">TODO</string>
+    <string name="bank_namee">Bank Name*</string>
+    <string name="ibann">IBAN*</string>
+    <string name="limitt">Limit*</string>
+    <string name="actual_amountt">Actual Amount*</string>
+    <string name="type_of_summ">Type of sum*</string>
+    <string name="categoryy">Category*</string>
+    <string name="date_of_transactionn">Date of transaction*</string>
+    <string name="save_txt">Save txt</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel11">Cancel</string>
+    <string name="cashAmountMaximum">Maximum cash amount</string>
+    <string name="income_default">Default income</string>
+    <string name="default_expense_amount">Default expense amount</string>
+</resources>

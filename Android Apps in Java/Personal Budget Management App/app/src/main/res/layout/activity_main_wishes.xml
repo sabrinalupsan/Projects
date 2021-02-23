@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".Wishlist.MainActivityWishlist">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/untitled_1"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/examples" />
+
+    <GridView
+        android:id="@+id/gvWishes"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:numColumns="2">
+
+    </GridView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startAddWish"
+        android:text="@string/add" />
+    <Button
+        android:id="@+id/buttonCancelWish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startAddWish"
+        android:text="@string/cancel11" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        tools:context=".mainFragment">
+
+        <ListView
+
+            android:id="@+id/wishesLv"
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+
+            />
+
+    </FrameLayout>
+
+</LinearLayout>
