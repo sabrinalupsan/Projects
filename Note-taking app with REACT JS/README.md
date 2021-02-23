@@ -1,15 +1,15 @@
 # StudentHelp
 App for taking notes
 
-# Goal
+## Goal
 
 A web application that allows students to take notes while attending college and manage them efficiently
 
-# Description
+## Description
 
 * The application allows college students to manage their notes. It is a Single Page Application
 
-# Functionalities
+## Functionalities
  (with priorities, from highest to lowest)
   * Logging in with institutional account
 	Logging in will be possible only with an email that contains @stud.ase.ro 
@@ -27,4 +27,9 @@ Adding attachments (images, documents, etc.)
 * Invite other users who can share notes within a study group 
 	Grant other users rights to see and edit notes added to a group
 
-
+## Technologies
+ * React.js
+ * Node.js
+ * Express
+ * Sequilize
+ * MySql
