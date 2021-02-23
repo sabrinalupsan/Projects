@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,100;0,400;1,200&family=Roboto&display=swap');
+
+:root{
+    --colour1:#e2c2b3;
+    --colour2:#f7f3f5;
+    --colour3:#687477;
+    --colour4:#171233;
+    --colour5:#271f4f;
+    --colour6:#3b3170;
+    --colour7:#6659a5;
+    --colour8:#b9aed4;
+    --colour9:#cec1ce;
+    --poppins:'Poppins',sans-serif;
+    --roboto:"Roboto",sans-serif;
+    --mrs-saint: 'Mrs Saint Delafield', cursive;
+    --long-cang:'Long Cang', cursive;
+
+}
+
+h3{
+    font-family: var(--poppins);
+}
+
+.btn-options{
+    margin-top: 10px;
+    
+}
+
+.btn-save-file{
+    margin-top: 10px;
+}
+
+.col-md-4{
+    background-color: #cec1ce;
+    padding:50px;
+    height: 100%;
+    font-family: var(--poppins);
+    height: 98vh;
+}
+
+
+
+.note-content{
+   
+    margin-right:2vh;
+    margin-left: 2vh;
+}
+.note-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:2vh;
+}
+
+
+
+.images-list{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.share-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col-md-8{
+    font-family: var(--poppins);
+    padding:20px;
+    
+}
+
+.image-container img{
+    width:100px;
+    height:100px;
+}
+
+
+
+
+
+.file-list{
+    margin-bottom: 2vh;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    font-family: var(--poppins);
+}
+
+.image-container a{
+    text-decoration: none;
+}
+
+.add-files{
+    margin-bottom: 2vh;
+    font-family: var(--poppins);
+}
+
+.network{
+    list-style-type: none;
+}
+
+.file-container a{
+    text-decoration: none;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.btn-image{
+    font-family: var(--poppins);
+    padding: 2px;
+    background-color: var(--colour8);
+
+}
+
+.file-container{
+    font-family: var(--poppins);
+    display: flex;
+    
+}
+

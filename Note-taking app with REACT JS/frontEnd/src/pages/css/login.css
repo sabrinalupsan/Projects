@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,100;0,400;1,200&family=Roboto&display=swap');
+
+:root{
+    --colour1:#e2c2b3;
+    --colour2:#f7f3f5;
+    --colour3:#687477;
+    --colour4:#171233;
+    --colour5:#271f4f;
+    --colour6:#3b3170;
+    --colour7:#6659a5;
+    --colour8:#9d8ec4;
+    --colour9:#c2c1c2;
+    --poppins:'Poppins',sans-serif;
+    --roboto:"Roboto",sans-serif;
+    --mrs-saint: 'Mrs Saint Delafield', cursive;
+    --long-cang:'Long Cang', cursive;
+
+}
+
+
+
+
+
+.login-div{
+    width:500px;
+    font-family: var(--poppins);
+    height: 500px;
+    background-color:rgb(81, 69, 85,0.4);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+
+
+
+
+.input-login{
+    height: 45px;
+    width: 300px;
+    font-family: var(--poppins);
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color:var(--colour9);
+}
+
+.login-button .submit{
+    color:var(--colour6);
+}
+
+
+
+
+
+
