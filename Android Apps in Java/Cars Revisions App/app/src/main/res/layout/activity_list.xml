@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    tools:context=".ListActivity">
+
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="416dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/gv2"
+        android:layout_width="415dp"
+        android:layout_height="198dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rd3"
+        android:layout_width="410dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/gv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gv"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RadioButton
+            android:id="@+id/btnFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alfabetic (A->Z)" />
+
+        <RadioButton
+            android:id="@+id/btnSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invers aflabetic (Z->A)" />
+
+        <RadioButton
+            android:id="@+id/btnThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crescator dupa un camp numeric" />
+
+        <RadioButton
+            android:id="@+id/btnFourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrescator dupa un camp numeric" />
+
+        <RadioButton
+            android:id="@+id/btnFifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A->Z si crescator" />
+
+        <RadioButton
+            android:id="@+id/btnSixth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A->Z si descrescator" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
