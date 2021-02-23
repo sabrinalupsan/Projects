@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExamenBiler2</string>
+    <string name="istoric_livrari">Istoric livrari</string>
+    <string name="adauga_livrare">Adauga livrare</string>
+    <string name="import_date">Import date</string>
+    <string name="despre">The application was made by Lupsan Sabrina</string>
+    <string name="accesata">Aplicatia a fost accesata la ora</string>
+    <string name="wrong_Data">Wrong data</string>
+</resources>
